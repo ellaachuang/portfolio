@@ -7,7 +7,7 @@ body {
 
 .custom-link {
     text-decoration: none;  /* Remove underline */
-    color: black;  /* Default color */
+    color: black !important; 
   }
 
 .sidenav {
@@ -38,7 +38,7 @@ body {
 }
 
 .sidenav a:active {
-  color: black;  /* Optional: color when link is actively clicked */
+  color: black !important;  /* Optional: color when link is actively clicked */
 }
 
 
