@@ -41,7 +41,6 @@ body {
   color: black !important;  /* Optional: color when link is actively clicked */
 }
 
-
 .main {
   margin-left: 250px; /* Same as the width of the sidenav */
   font-size: 16px; /* Increased text to enable scrolling */
@@ -53,7 +52,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 40px; /* Space between grid items */
 }
-
 
 .custom-link img {
   width: 100%;
@@ -86,6 +84,7 @@ body {
   flex-wrap: wrap; /* Allows wrapping if not enough space */
   gap: 20px; /* Adds even spacing between images */
 }
+
 .image-container img {
   height: 300px; /* Maintain height */
 }
